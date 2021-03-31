@@ -8,6 +8,8 @@ public class priority {
         int d = 7, f = 20, h = 22, g = 68;
         int j = 6, k = 3, l = 12, m = 119;
         int result;
+        //boolean result2 = true;
+        //boolean result3 = true;
         result = a + b / c;
         System.out.println(result);
         result = (a + b) / c;
@@ -22,6 +24,6 @@ public class priority {
         System.out.println(result);
         boolean result2 = j - b > k && l * l <= m;
         System.out.println(result2);
-        //true && false;
+        boolean result3 = true && false;
     }
 }
