@@ -7,6 +7,10 @@ public class Name2 {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите имя: ");
         String name = in.nextLine();
+        result(name);
+    }
+
+    public static void result(String name) {
 
         switch (name) {
             case "Вася": {
@@ -21,6 +25,7 @@ public class Name2 {
 
             default:
                 System.out.println("Добрый день, а вы кто?");
+                break;
         }
     }
 }
