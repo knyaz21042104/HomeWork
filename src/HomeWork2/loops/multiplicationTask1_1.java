@@ -7,7 +7,7 @@ public class multiplicationTask1_1 {
         System.out.print("Введите целое число :");
         Scanner in = new Scanner(System.in);
         int number = in.nextInt();
-        int result = 0;
+        int result = 1;
 
         for (int i = 1; i <= number; ++i){
             if (i != number){
