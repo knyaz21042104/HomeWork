@@ -6,8 +6,8 @@ public class multiplicationTask1_1 {
     public static void main(String[] args) {
         System.out.print("Введите целое число :");
         Scanner in = new Scanner(System.in);
-        int number = in.nextInt();
-        int result = 1;
+        long number = in.nextLong();
+        long result = 1;
 
         for (int i = 1; i <= number; ++i){
             if (i != number){
